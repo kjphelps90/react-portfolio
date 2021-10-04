@@ -3,16 +3,16 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function Header() {
     return (
-        <div className="container">
-            <div className="md-col-3">
+        <div className="container row align-items-center my-5">
+            <div className="col-lg-3">
                <h1>Kevin Phelps</h1>
             </div>
-            <div className="md-col-3">
-                <h3>(734)-972-0619</h3>
-                <h3>kjphelps90@gmail.com</h3>
-                <h3>Github <a href="https://github.com/kjphelps90">kjphelps90</a></h3>
+            <div className="col-lg-3">
+                <h5>(734)-972-0619</h5>
+                <h5>kjphelps90@gmail.com</h5>
+                <h5>Github <a href="https://github.com/kjphelps90">kjphelps90</a></h5>
             </div>
-            <div className="md-col-6">
+            <div className="col-lg-6">
             </div>
         </div>
     )
