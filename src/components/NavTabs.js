@@ -24,11 +24,11 @@ export default function NavTabs({ currentPage, handlePageChange}) {
                 className={currentPage === "Contact" ? "nav-link active" : "nav-link"}
             >Contact</a>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
             <a
                 href="../assets/docs/Resume_KevinPhelps" download
             >Resume</a>
-            </li>
+            </li> */}
         </ul>
     )
 }
