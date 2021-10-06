@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Contact() {
     return (
-        <div>
+        <div className="container my-5">
             <h1>Contact</h1>
             <li><span>Phone: </span>   (734)-972-0619</li>
             <li><span>Email: </span> <a href="tomail:kjphelps90@gmail.com">kjphelps90@gmail.com</a></li>

@@ -1,4 +1,5 @@
 import React from "react";
+import Resume from "../assets/docs/Resume_KevinPhelps.pdf"
 
 export default function NavTabs({ currentPage, handlePageChange}) {
     return (
@@ -8,27 +9,27 @@ export default function NavTabs({ currentPage, handlePageChange}) {
             <a
                 href="#about"
                 onClick={() => handlePageChange("About")}
-                className={currentPage === "About" ? "nav-link active" : "nav-link"}
+                className={"orange"}
             >About Me</a>
             </li>
             <li className="nav-item mx-4 px-2 fs-5 fw-bold">
             <a
                 href="#portfolio"
                 onClick={() => handlePageChange("Portfolio")}
-                className={currentPage === "Portfolio" ? "nav-link active" : "nav-link"}
+                className={"orange"}
             >Portfolio</a>
             </li>
             <li className="nav-item mx-4 px-2 fs-5 fw-bold">
             <a
                 href="#contact"
                 onClick={() => handlePageChange("Contact")}
-                className={currentPage === "Contact" ? "nav-link active" : "nav-link"}
+                className={"orange"}
             >Contact</a>
             </li>
             <li className="nav-item mx-4 px-2 fs-5 fw-bold">
             <a
-                className="nav-link"
-                href=".\..\..\public\files\resume\Resume_KevinPhelps.pdf" download
+                className="orange"
+                href= {Resume} download
             >Resume</a>
             </li>
         </ul>
