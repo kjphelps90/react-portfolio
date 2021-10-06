@@ -28,7 +28,7 @@ export default function NavTabs({ currentPage, handlePageChange}) {
             <li className="nav-item mx-4 px-2 fs-5 fw-bold">
             <a
                 className="nav-link"
-                href=".\assets\docs\Resume_KevinPhelps.pdf" download
+                href=".\..\..\public\files\resume\Resume_KevinPhelps.pdf" download
             >Resume</a>
             </li>
         </ul>
